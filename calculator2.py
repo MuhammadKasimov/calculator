@@ -148,7 +148,6 @@ class Calculator(QWidget):
         self.skobka2.clicked.connect(lambda: self.press_button(")"))
         self.fl.clicked.connect(lambda: self.press_button("."))
         self.setLayout(self.main_box)
-        self.setFixedSize(500,550)
         self.show()
     
     def press_button(self,otv):
